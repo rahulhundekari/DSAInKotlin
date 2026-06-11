@@ -2,10 +2,10 @@ package com.example.dsainkotlin.dsa.general
 
 fun main(){
     val number = 10
-    println(trailingZeros(number))
+    println(trailingZeroesInFactorial(number))
 }
 
-fun trailingZeros(num: Int): Int {
+fun trailingZeroesInFactorial(num: Int): Int {
 
     var currPowerOfFive = 5
     var count = 0

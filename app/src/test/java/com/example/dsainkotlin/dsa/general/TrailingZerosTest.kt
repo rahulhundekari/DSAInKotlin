@@ -8,7 +8,7 @@ class TrailingZerosTest {
     fun testTrailingZeros() {
         val n = 5
         val expected = 1
-        val actual = trailingZeros(n)
+        val actual = trailingZeroesInFactorial(n)
         assert(expected == actual)
     }
 
@@ -16,7 +16,7 @@ class TrailingZerosTest {
     fun testTrailingZerosTest2() {
         val n = 10
         val expected = 2
-        val actual = trailingZeros(n)
+        val actual = trailingZeroesInFactorial(n)
         assert(expected == actual)
     }
 
